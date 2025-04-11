@@ -8,7 +8,7 @@
       <p class="mb-1 fw-bold">{{ this.userService.userInfo?.username }}</p>
     </div>
     <div class="nav-buttons d-flex flex-column">
-      <button class="btn btn-outline-primary mb-2" (click)="navigateTo(Feed.HOME)">Home</button>
+      <button class="btn btn-outline-danger mb-2" (click)="navigateTo(Feed.HOME)">Home</button>
       <button class="btn btn-outline-secondary mb-2" (click)="navigateTo(Feed.LOCAL)">Local Feed</button>
       <button class="btn btn-outline-secondary mb-2" (click)="navigateTo(Feed.GLOBAL)">Global Feed</button>
       <button class="btn btn-outline-secondary mb-2" (click)="navigateTo(Feed.SEAMANTIC)">Seamantic Feed</button>
@@ -74,7 +74,7 @@
 
     <button
       (click)="clickedOnSendToMyAccount()"
-      class="btn btn-primary ms-3"
+      class="btn btn-outline-dark ms-3"
       style="float: right">
       Send
     </button>
